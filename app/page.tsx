@@ -1,6 +1,6 @@
-import ShadcnCarouselWrapper from "@/src/components/AutoPlayCarouselWrapper";
-import ComponentDetails from "@/src/components/other/ComponentDetails";
-import { Badge } from "@/src/components/ui/badge";
+import ShadcnCarouselWrapper from "@/components/AutoPlayCarouselWrapper";
+import ComponentDetails from "@/components/other/ComponentDetails";
+import { Badge } from "@/components/ui/badge";
 import { SparklesIcon } from "lucide-react";
 
 export default function Home() {

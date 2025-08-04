@@ -2,14 +2,14 @@
 
 import Link from "next/link"
 
-import { cn } from "@/src/lib/utils"
-import { buttonVariants } from "@/src/components/ui/button"
+import { cn } from "@/lib/utils"
+import { buttonVariants } from "@/components/ui/button"
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@/src/components/ui/tooltip"
+} from "@/components/ui/tooltip"
 
 const OpenInV0 = ({ componentSource }: { componentSource: string }) => {
   return (

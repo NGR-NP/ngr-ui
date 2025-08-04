@@ -1,14 +1,14 @@
 "use client"
 
-import { useConfig } from "@/src/hooks/use-config"
-import CopyButton from "@/src/components/other/copy-button"
+import { useConfig } from "@/hooks/use-config"
+import CopyButton from "@/components/other/copy-button"
 import {
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
-} from "@/src/components/ui/tabs"
-import { BASE_URL } from "@/src/lib/secret"
+} from "@/components/ui/tabs"
+import { BASE_URL } from "@/lib/secret"
 
 export default function CliCommands({ name }: { name: string }) {
   const [config, setConfig] = useConfig()

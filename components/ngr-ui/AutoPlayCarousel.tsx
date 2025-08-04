@@ -4,10 +4,10 @@ import { useCallback, useEffect, useRef, useState } from "react";
 
 import Autoplay from "embla-carousel-autoplay";
 
-import { useIsMobile } from "@/src/hooks/use-mobile";
+import { useIsMobile } from "@/hooks/use-mobile";
 
-import { Button } from "@/src/components/ui/button";
-import type { CarouselApi } from "@/src/components/ui/carousel";
+import { Button } from "@/components/ui/button";
+import type { CarouselApi } from "@/components/ui/carousel";
 import {
   Carousel,
   CarouselContent,
@@ -15,7 +15,7 @@ import {
   CarouselNext,
   CarouselPrevious,
   type CarouselProps, // just find CarouselProps inside carousel and export it
-} from "@/src/components/ui/carousel";
+} from "@/components/ui/carousel";
 
 type SlideStyle = { scale: number; opacity: number; translateX: number };
 

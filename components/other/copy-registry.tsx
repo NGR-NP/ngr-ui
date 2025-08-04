@@ -1,14 +1,14 @@
 "use client"
 
-import { useCopy } from "@/src/hooks/use-copy"
-import { cn } from "@/src/lib/utils"
-import { Button } from "@/src/components/ui/button"
+import { useCopy } from "@/hooks/use-copy"
+import { cn } from "@/lib/utils"
+import { Button } from "@/components/ui/button"
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@/src/components/ui/tooltip"
+} from "@/components/ui/tooltip"
 
 const CopyButton = ({ url }: { url: string | null }) => {
   const { copied, copy } = useCopy()

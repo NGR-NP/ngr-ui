@@ -4,12 +4,12 @@ import { CodeIcon } from "lucide-react";
 import { useEffect, useState } from "react";
 import type { RegistryItem } from "shadcn/registry";
 
-import ComponentCli from "@/src/components/other/cli-commands";
-import CodeBlock from "@/src/components/other/code-block";
-import CopyButton from "@/src/components/other/copy-button";
-import CopyRegistry from "@/src/components/other/copy-registry";
-import OpenInV0 from "@/src/components/other/open-in-v0";
-import { Button } from "@/src/components/ui/button";
+import ComponentCli from "@/components/other/cli-commands";
+import CodeBlock from "@/components/other/code-block";
+import CopyButton from "@/components/other/copy-button";
+import CopyRegistry from "@/components/other/copy-registry";
+import OpenInV0 from "@/components/other/open-in-v0";
+import { Button } from "@/components/ui/button";
 import {
   Dialog,
   DialogContent,
@@ -17,16 +17,16 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/src/components/ui/dialog";
+} from "@/components/ui/dialog";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@/src/components/ui/tooltip";
-import { convertRegistryPaths } from "@/src/lib/utils";
+} from "@/components/ui/tooltip";
+import { convertRegistryPaths } from "@/lib/utils";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs";
-import { BASE_URL } from "@/src/lib/secret";
+import { BASE_URL } from "@/lib/secret";
 
 export default function ComponentDetails({
   component,
