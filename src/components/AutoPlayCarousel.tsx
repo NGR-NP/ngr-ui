@@ -114,10 +114,10 @@ export default function AutoPlayCarousel<T>({
           return (
             <CarouselItem
               key={index}
-              className="basis-5/6 max-md:pl-8 max-sm:pl-6 max-[35rem]:pl-2"
+              className="basis-5/6 max-md:pl-8 max-sm:pl-6 max-[35rem]:pl-2 max-h-4/5"
             >
               <div
-                className="group relative aspect-square h-full overflow-hidden rounded-lg duration-200 md:aspect-video"
+                className="group relative size-full aspect-square  overflow-hidden rounded-lg duration-200 md:aspect-video"
                 style={{
                   transform: `scale(${style.scale}) translateX(${style.translateX}px)`,
                 }}
