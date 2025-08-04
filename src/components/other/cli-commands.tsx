@@ -1,7 +1,7 @@
 "use client"
 
 import { useConfig } from "@/src/hooks/use-config"
-import CopyButton from "@/src/components/ngr/copy-button"
+import CopyButton from "@/src/components/other/copy-button"
 import {
   Tabs,
   TabsContent,

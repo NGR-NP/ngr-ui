@@ -1,5 +1,5 @@
 import ShadcnCarouselWrapper from "@/src/components/AutoPlayCarouselWrapper";
-import ComponentDetails from "@/src/components/ngr/ComponentDetails";
+import ComponentDetails from "@/src/components/other/ComponentDetails";
 import { Badge } from "@/src/components/ui/badge";
 import { SparklesIcon } from "lucide-react";
 

@@ -4,11 +4,11 @@ import { CodeIcon } from "lucide-react";
 import { useEffect, useState } from "react";
 import type { RegistryItem } from "shadcn/registry";
 
-import ComponentCli from "@/src/components/ngr/cli-commands";
-import CodeBlock from "@/src/components/ngr/code-block";
-import CopyButton from "@/src/components/ngr/copy-button";
-import CopyRegistry from "@/src/components/ngr/copy-registry";
-import OpenInV0 from "@/src/components/ngr/open-in-v0";
+import ComponentCli from "@/src/components/other/cli-commands";
+import CodeBlock from "@/src/components/other/code-block";
+import CopyButton from "@/src/components/other/copy-button";
+import CopyRegistry from "@/src/components/other/copy-registry";
+import OpenInV0 from "@/src/components/other/open-in-v0";
 import { Button } from "@/src/components/ui/button";
 import {
   Dialog,
