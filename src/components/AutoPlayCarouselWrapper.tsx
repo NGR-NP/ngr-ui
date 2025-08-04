@@ -1,6 +1,6 @@
 "use client";
 
-import { AutoPlayCarouselProps } from "@/src/components/AutoPlayCarousel";
+import { AutoPlayCarouselProps } from "@/src/components/ngr-ui/AutoPlayCarousel";
 import dynamic from "next/dynamic";
 
 const sliders = [
@@ -30,7 +30,7 @@ const sliders = [
   },
 ];
 
-const AutoPlayCarousel = dynamic<AutoPlayCarouselProps<(typeof sliders)[number]>>(() => import("@/src/components/AutoPlayCarousel"), {
+const AutoPlayCarousel = dynamic<AutoPlayCarouselProps<(typeof sliders)[number]>>(() => import("@/src/components/ngr-ui/AutoPlayCarousel"), {
   ssr: false,
 });
 
