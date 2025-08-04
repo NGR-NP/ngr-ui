@@ -114,7 +114,7 @@ export default function AutoPlayCarousel<T>({
           return (
             <CarouselItem
               key={index}
-              className="basis-5/6 max-md:pl-8 max-sm:pl-6 max-[35rem]:pl-2 max-h-4/5"
+              className="basis-5/6 max-md:pl-8 max-sm:pl-6 max-[35rem]:pl-2 max-h-[80dvh]"
             >
               <div
                 className="group relative size-full aspect-square  overflow-hidden rounded-lg duration-200 md:aspect-video"
